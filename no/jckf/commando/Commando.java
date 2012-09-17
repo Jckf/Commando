@@ -62,6 +62,10 @@ public class Commando extends JavaPlugin implements Listener {
 			return true;
 		}
 
+		if (!sender.isOp()) {
+			return true;
+		}
+
 		if (args.length == 0) {
 			return false;
 		}
