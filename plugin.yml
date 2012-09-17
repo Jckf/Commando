@@ -1,0 +1,7 @@
+name: Commando
+version: 1.0
+main: no.jckf.commando.Commando
+commands:
+   commando:
+      description: Manage scripted blocks.
+      usage: /<command> <set/get/unset> <action>
