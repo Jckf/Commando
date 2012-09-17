@@ -40,12 +40,12 @@ public class Commando extends JavaPlugin implements Listener {
 			String[] loc = config.getString(key + ".location").split("\\|");
 			blocks.put(
 				new Location(
-				    getServer().getWorld(loc[0]),
+					getServer().getWorld(loc[0]),
 					Double.parseDouble(loc[1]),
 					Double.parseDouble(loc[2]),
 					Double.parseDouble(loc[3])
 				),
-			    config.getString(key + ".command")
+				config.getString(key + ".command")
 			);
 		}
 
